@@ -1,0 +1,10 @@
+for this u will have to install qemu-headless-i368 
+for it u will have to do (apt install x11-repo -y)
+then (apt install qemu-system-i386 -y)
+after that let it enable storage by that type (termux-setup-storage)
+then u will have to download the qrcow2 file or iso
+here the cmd
+qemu-system-i386 /sdcard/Download/Windows10.qcow2 --full-screen -netdev user,id=n0 -device rtl8139,netdev=n0 -cpu 8 -m 2048M -vga std
+here the cmd for low end dev
+qemu-system-i386 /sdcard/Download/Windows10.qcow2 --full-screen -netdev user,id=n0 -device rtl8139,netdev=n0 -cpu 4 -m 1048M -vga vmware
+and that it 
