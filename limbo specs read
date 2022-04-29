@@ -1,0 +1,20 @@
+the system for running the windows 10 on android 
+1GB RAM or 2GB 
+CPU IvyBridge 
+CPU Cores 8 core or 4
+Enable MTTCG
+Video card Std graphic
+Audio all
+Network user and rtl813
+
+for low end phones
+CPU - qemu64 
+enable mttcg 
+CPU Cores - 1
+RAM - 1200MB 
+Video Card - vmware 
+Audio Card - all
+Network - User 
+NIC Card - rtl8139
+
+it will be faster
